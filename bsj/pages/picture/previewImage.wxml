@@ -1,0 +1,7 @@
+
+
+<loading hidden="{{loadingHidden}}">正在加载...</loading>
+<image src="{{imageStr}}" style="display: flex; width:100%; height: {{height}}rpx" mode="aspectFit" />
+
+
+

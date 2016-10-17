@@ -1,0 +1,44 @@
+<scroll-view style="height:100%;" scroll-y="true" class="container"  bindscrolltolower="loadMore" bindscrolltoupper="refesh" >
+
+
+ <!--<view wx:if="{{hasRefesh}}" style="display: flex;flex-direction: row;align-items: center;align-self: center;justify-content: center;">
+      <icon type="waiting" size="45"/><text>刷新中...</text>
+</view>
+ <view wx:else  style="display:none" ><text></text></view>-->
+
+
+     <block wx:for-items="{{satins}}" wx:for-item="satin">
+       <view class="satin-item" bindtap="viewDetail" data-id="{{satin.id}}" data-title="{{satin.image3}}">
+    <view class="satin-clearance">
+     </view>
+          <view class="satin-userinfo">
+            <view class="satin-image">
+              <image src="{{satin.profile_image}}"></image>
+            </view>
+            <view class="satin-info">
+              <view>
+                  <text class="satin-name">{{satin.name}}</text>
+               </view>
+                <view>
+                  <text class="satin-year">{{satin.create_time}}</text>
+              </view>
+
+            </view>
+        </view>
+        <view class="satin-content">
+        {{satin.text}}
+        </view>
+
+         <view class="satin-image1">
+              <image src="{{satin.image3}}"  mode="aspectFill" style="position: relative"></image>
+            </view>
+        </view> 
+     </block>
+     <!--<view class="tips1">
+      <view wx:if="{{hasMore}}" style="display: flex;flex-direction: row;align-items: center;align-self: center;justify-content: center;">
+      <icon type="waiting" size="45"/><text>玩命的加载中...</text></view>
+      <view wx:else><text>没有更多内容了</text></view>
+    </view>-->
+
+
+</scroll-view>

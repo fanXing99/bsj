@@ -1,0 +1,45 @@
+
+.container{
+    font-family: "Helvetica Neue",Arial,"PingFang SC","Microsoft YaHei",sans-serif;
+  font-size: 14px;
+}
+.satin-userinfo{
+   padding-top: 10px;
+   padding-left: 10px;
+ padding-right: 10px;
+   display: flex;
+}
+.satin-image{
+  width: 40px;
+}
+.satin-image image{
+  width: 40px;
+  height: 40px;
+    border-radius:20px;  
+}
+
+.satin-info {
+  padding-left: 10px;
+}
+.satin-content {
+  padding: 10px;
+}
+
+.satin-clearance{
+ width: 100%;
+ height: 10px;
+ background-color: #f2f2f2;
+
+
+}
+
+.satin-year{
+  font-size: 10px;
+  color: rgb(232, 232, 232);
+
+}
+
+
+
+
+

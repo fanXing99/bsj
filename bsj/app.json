@@ -1,0 +1,49 @@
+{
+  "pages":[
+    "pages/Satin/satin",
+    "pages/picture/picture",
+    "pages/voide/voide",
+    "pages/voice/voice",
+    "pages/picture/previewImage"
+  ],
+    "tabBar": {
+    "color": "#666",
+    "selectedColor": "red",
+    "borderStyle": "white",
+    "backgroundColor": "#fafafa",
+    "list": [{
+      "pagePath": "pages/Satin/satin",
+      "iconPath": "pages/images/NetflixN.png",
+      "selectedIconPath": "pages/images/NetflixS.png",
+      "text": "段子"
+    },{
+      "pagePath": "pages/picture/picture",
+      "iconPath": "pages/images/imageN.png",
+      "selectedIconPath": "pages/images/imageS.png",
+      "text": "图片"
+    },{
+      "pagePath": "pages/voide/voide",
+      "iconPath": "pages/images/youtubeN.png",
+      "selectedIconPath": "pages/images/youtubeS.png",
+      "text": "视频"
+    },{
+      "pagePath": "pages/voice/voice",
+      "iconPath": "pages/images/voiceN.png",
+      "selectedIconPath": "pages/images/voiceS.png",
+      "text": "声音"
+    }
+    ]
+  },
+  "window":{
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#000",
+    "navigationBarTextStyle":"#fff",
+      "navigationBarTitleText": "WeChat"
+  },
+  "networkTimeout": {
+    "request": 10000,
+    "downloadFile": 10000
+  },
+  "debug": true
+  
+}

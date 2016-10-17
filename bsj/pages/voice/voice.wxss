@@ -1,0 +1,71 @@
+
+/*.satin-item{
+
+}*/
+
+
+
+
+.container{
+   display: flex;
+    font-family: "Helvetica Neue",Arial,"PingFang SC","Microsoft YaHei",sans-serif;
+  font-size: 14px;
+}
+.satin-userinfo{
+   padding-top: 10px;
+   padding-left: 10px;
+ padding-right: 10px;
+   display: flex;
+}
+.satin-image{
+  width: 40px;
+}
+.satin-image image{
+  width: 40px;
+  height: 40px;
+    border-radius:20px;  
+}
+
+.satin-info {
+   display: flex;
+  padding-left: 10px;
+}
+.satin-content {
+   display: flex;
+  padding: 10px;
+}
+
+.satin-clearance{
+   display: flex;
+ width: 100%;
+ height: 10px;
+
+ background-color: #f2f2f2;
+
+
+}
+
+.satin-year{
+  font-size: 10px;
+  color: rgb(232, 232, 232);
+
+}
+
+/*浮动在图片上的view样式*/
+
+
+.flexView{
+display: flex;
+justify-content: center;
+align-items: center;
+width: 100%;
+height: 80rpx;
+/*position: absolute;*/
+z-index: 2;
+bottom: 80px;
+
+
+}
+
+
+
